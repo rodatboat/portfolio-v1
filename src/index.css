@@ -5,9 +5,92 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+div.container {
+  height: 100vh;
+}
+
+.content {
+
+  /* font-size: 18px; */
+  font-size: 32px;
+  font-family: 'Botif-Regular',Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.content .name {
+  /* font-size: 35px; */
+  font-size: 18px;
+  font-family: Bogart,Helvetica Neue,Helvetica,Arial,sans-serif;
+  
+  background: -webkit-linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #23a6d5, #e73c7e, #ee7752);
+  background-size: 1400% auto;
+  background-repeat: repeat-x;
+
+  animation: gradient 3s ease infinite;
+  -webkit-animation: gradient 3s ease infinite;
+  -o-animation: gradient 3s ease infinite;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 50% 0%;
+	}
+  100% {
+		background-position: 100% 0%;
+	}
+}
+
+div.row {
+  height: 100%;
+}
+
+@font-face {
+  font-family: Biotif-Regular;
+  src: url(./fonts/biotif.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: Bogart;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(./fonts/bogart-med.woff2) format("woff2");
+}
+
+/* body {
+	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 800% 800%;
+	animation: gradient 3s ease infinite;
+	height: 100vh;
+  background-repeat: repeat-x;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 80%;
+	}
+	50% {
+		background-position: 100% 20%;
+	}
+  100% {
+		background-position: 0% 80%;
+	}
+} */
