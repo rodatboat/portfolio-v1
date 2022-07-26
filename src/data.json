@@ -1,52 +1,53 @@
 {
     "projects":[
         {
-            "title":"Halcyon Theme",
-            "bio":"A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on ",
-            "link":"",
-            "tech_stack":["VS Code", "Sublime Text", "Atom"]
+            "title":"LPRecon-ALPR",
+            "bio":"🚗 Artificial License Plate Recognition using openALPR, openCV, Tesseract. Was integrated using Google Cloud's Compute Engine.",
+            "link":"https://github.com/rodatboat/LPRecon-ALPR",
+            "tech_stack":[
+              "Python",
+              "OpenCV",
+              "Tesseract",
+              "GCP"]
         },
         {
-            "title":"Spotify Profile",
-            "bio":"A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-            "link":"",
-            "tech_stack":["React", "Express", "Spotify API"]
+            "title":"lawn-webapp",
+            "bio":"🌄 Lawn is a marketplace where users can buy land from agents belonging to agencies. Built using Spring 5, Thymeleaf, & MySQL.",
+            "link":"https://github.com/rodatboat/lawn-webapp",
+            "tech_stack":[
+              "Java",
+              "Spring",
+              "MySQL",
+              "ThymeLeaf"]
         },
         {
-            "title":"Spotify Profile",
-            "bio":"A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-            "link":"",
-            "tech_stack":["React", "Express", "Spotify API"]
+            "title":"Warframe-MarketBuddy",
+            "bio":"📈 Electron application styled using Bulma which fetches the warframe.market API prices for the items specified.",
+            "link":"https://github.com/rodatboat/Warframe-MarketBuddy",
+            "tech_stack":[
+              "Bulma",
+              "Electron",
+              "Node.js",
+              "Python"]
         },
         {
-            "title":"Spotify Profile",
-            "bio":"A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-            "link":"",
-            "tech_stack":["React", "Express", "Spotify API"]
+            "title":"amazon-clone",
+            "bio":"💼 Amazon clone built using React, GCP, & Stripe API.",
+            "link":"https://github.com/rodatboat/amazon-clone",
+            "tech_stack":[
+              "React",
+              "Stripe API",
+              "MongoDB",
+              "Node.js",
+              "AWS"]
         },
         {
-            "title":"Spotify Profile",
-            "bio":"A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-            "link":"",
-            "tech_stack":["React", "Express", "Spotify API"]
-        },
-        {
-            "title":"Spotify Profile",
-            "bio":"A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-            "link":"",
-            "tech_stack":["React", "Express", "Spotify API"]
-        },
-        {
-            "title":"Spotify Profile",
-            "bio":"A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-            "link":"",
-            "tech_stack":["React", "Express", "Spotify API"]
-        },
-        {
-            "title":"Spotify Profile",
-            "bio":"A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-            "link":"",
-            "tech_stack":["React", "Express", "Spotify API"]
+            "title":"pwnChecker",
+            "bio":"📁 Python script that checks for leaked credentials, using the pwnDB Onion service.",
+            "link":"https://github.com/rodatboat/pwnChecker",
+            "tech_stack":[
+              "Python",
+            "Web Scrapping"]
         }
     ]
 }

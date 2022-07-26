@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaInstagram, FaFolderOpen } from "react-icons/fa";
 
 const Project = ({ projectData }) => {
   return (
@@ -7,9 +7,11 @@ const Project = ({ projectData }) => {
         <div className="col">
           <div className="row project-links-wrapper container">
             <span className="socials project-links">
-              <a href="https://github.com/rodatboat">
+            <FaFolderOpen className="folder-icon" size={28} />
+              <a href={projectData.link}>
                 <FaGithub size={28} />
               </a>
+              
             </span>
           </div>
           <div className="row project-title-wrapper container">
@@ -18,8 +20,8 @@ const Project = ({ projectData }) => {
           <div className="row project-bio-wrapper container">
             <span className="project-bio">{projectData.bio}</span>
           </div>
-          <div className="row project-techstack-wrapper container">
-          {projectData.tech_stack.map((t) => <span className="project-techstack">{t}</span>)}
+          <div className="row project-techstack-wrapper">
+          {projectData.tech_stack.map((t, i) => <span key={i} className="project-techstack">{t}</span>)}
           </div>
         </div>
       </li>
