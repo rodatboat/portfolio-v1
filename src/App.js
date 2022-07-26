@@ -6,11 +6,13 @@ function App() {
     <>
     <div className="container">
       <div className='row align-items-center'>
-        <div className='col-2 text-center'><span className="arrow">{"<"}</span></div>
-        <div className='col content'>
-          <Landing />
+        <div className='col-2 text-center arrows'><span className="arrow">{"<"}</span></div>
+        <div className='col content align-items-center'>
+        <div className="content-wrapper ">
+        <Landing />
         </div>
-        <div className='col-2 text-center'><span className="arrow">{">"}</span></div>
+        </div>
+        <div className='col-2 text-center arrows'><span className="arrow">{">"}</span></div>
       </div>
     </div>
     </>

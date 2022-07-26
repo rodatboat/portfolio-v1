@@ -88,6 +88,34 @@ a {
   font-family: 'Bogart',Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+div.content {
+  display: absolute;
+  overflow:hidden;
+
+  height: 100vh;
+}
+div.content-wrapper {
+  overflow: hidden;
+}
+
+div.content-wrapper {
+  height:min-content;
+  overflow-y: scroll;
+  box-sizing: content-box;
+  overflow: none !important;
+
+  height: 95vh;
+  margin: 2.5vh 0;
+
+  display: flex;
+  align-items: center;
+}
+
+div.content-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+
 .arrow:hover {
   border: 1px solid white;
   border-radius: 5px;
@@ -112,7 +140,7 @@ a {
 }
 
 
-.content .name {
+ .name {
   /* font-size: 35px; */
   font-size: 20px;
   font-family: 'Bogart',Helvetica Neue,Helvetica,Arial,sans-serif;
