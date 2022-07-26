@@ -1,7 +1,8 @@
 {
     "projects":[
         {
-            "title":"LPRecon-ALPR",
+            "title":"LPRecon",
+            "repo":"LPRecon-ALPR",
             "bio":"🚗 Artificial License Plate Recognition using openALPR, openCV, Tesseract. Was integrated using Google Cloud's Compute Engine.",
             "link":"https://github.com/rodatboat/LPRecon-ALPR",
             "tech_stack":[
@@ -11,7 +12,8 @@
               "GCP"]
         },
         {
-            "title":"lawn-webapp",
+            "title":"Lawn Agency",
+            "repo":"lawn-webapp",
             "bio":"🌄 Lawn is a marketplace where users can buy land from agents belonging to agencies. Built using Spring 5, Thymeleaf, & MySQL.",
             "link":"https://github.com/rodatboat/lawn-webapp",
             "tech_stack":[
@@ -21,7 +23,8 @@
               "ThymeLeaf"]
         },
         {
-            "title":"Warframe-MarketBuddy",
+            "title":"Warframe MarketBuddy",
+            "repo":"Warframe-MarketBuddy",
             "bio":"📈 Electron application styled using Bulma which fetches the warframe.market API prices for the items specified.",
             "link":"https://github.com/rodatboat/Warframe-MarketBuddy",
             "tech_stack":[
@@ -31,7 +34,8 @@
               "Python"]
         },
         {
-            "title":"amazon-clone",
+            "title":"Amazon Clone",
+            "repo":"amazon-clone",
             "bio":"💼 Amazon clone built using React, GCP, & Stripe API.",
             "link":"https://github.com/rodatboat/amazon-clone",
             "tech_stack":[
@@ -43,6 +47,7 @@
         },
         {
             "title":"pwnChecker",
+            "repo":"pwnChecker",
             "bio":"📁 Python script that checks for leaked credentials, using the pwnDB Onion service.",
             "link":"https://github.com/rodatboat/pwnChecker",
             "tech_stack":[

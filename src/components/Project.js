@@ -15,7 +15,7 @@ const Project = ({ projectData }) => {
             </span>
           </div>
           <div className="row project-title-wrapper container">
-            <span className="project-title">{projectData.title}</span>
+            <span className="project-title">{projectData.title}{/*<br></br><span className="project-repo">{"/ " + projectData.repo}</span>*/}</span>
           </div>
           <div className="row project-bio-wrapper container">
             <span className="project-bio">{projectData.bio}</span>
