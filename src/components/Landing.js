@@ -4,7 +4,7 @@ const Landing = () => {
   const iconSize = 18;
   return (
     <>
-        <div className="component">
+        <div className="landing-component">
           <span className="name">Ronaldo Suarez - Software Engineer</span>
           <br></br>
           <span className="introduction">

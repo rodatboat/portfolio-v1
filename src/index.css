@@ -12,7 +12,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-  font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 div.container {
@@ -25,7 +25,7 @@ div.row {
 
 .content {
   font-size: 0px;
-  font-family: 'Botif-Regular',Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Botif-Regular', Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .content span {
@@ -52,7 +52,7 @@ a {
 }
 
 .socials a {
-  color:#a1a1a1;
+  color: #a1a1a1;
 
   transition: color .2s ease;
   -webkit-transition: color .2s ease;
@@ -60,8 +60,8 @@ a {
 }
 
 .socials a:hover {
-  color:white;
-  
+  color: white;
+
   transition: color .2s ease;
   -webkit-transition: color .2s ease;
   -o-transition: color .2s ease;
@@ -85,21 +85,22 @@ a {
   -o-transition: color .2s ease;
 
   font-size: 20px;
-  font-family: 'Bogart',Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Bogart', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 div.content {
   display: absolute;
-  overflow:hidden;
+  overflow: hidden;
 
   height: 100vh;
 }
+
 div.content-wrapper {
   overflow: hidden;
 }
 
 div.content-wrapper {
-  height:min-content;
+  height: min-content;
   overflow-y: scroll;
   box-sizing: content-box;
   overflow: none !important;
@@ -140,10 +141,10 @@ div.content-wrapper::-webkit-scrollbar {
 }
 
 
- .name {
+.name {
   /* font-size: 35px; */
   font-size: 20px;
-  font-family: 'Bogart',Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Bogart', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .introduction .introduction-name-border {
@@ -195,15 +196,17 @@ div.content-wrapper::-webkit-scrollbar {
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 0%;
-	}
-	50% {
-		background-position: 50% 0%;
-	}
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 50% 0%;
+  }
+
   100% {
-		background-position: 100% 0%;
-	}
+    background-position: 100% 0%;
+  }
 }
 
 @font-face {
@@ -218,3 +221,90 @@ div.content-wrapper::-webkit-scrollbar {
   font-stretch: normal;
   src: url(./fonts/bogart-med.woff2) format("woff2");
 }
+
+div.projects-component {
+  height: 100vh;
+  width: 100%;
+}
+
+ul.project-list {
+  height: 80vh;
+  margin: 10vh 0;
+
+  list-style: none;
+  padding: 0px;
+  position: relative;
+
+  display: block;
+  flex-direction:column;
+  justify-content: space-between;
+
+}
+
+ul.project-list li {
+  height: 60vh;
+  margin: 20vh 0px;
+  width: 100%;
+  background: rgb(7, 7, 7);
+  border-radius: 50px;
+
+  padding: 25px;
+}
+
+ul.project-list div.col {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+ul.project-list div.row {
+  margin: 10px;
+  font-size: 18px;
+}
+
+div.row .project-links-wrapper {
+  height: 20%;
+}
+
+div.row .project-title-wrapper {
+  height: 10%;
+}
+
+div.row .project-bio-wrapper {
+  height: 60%;
+}
+
+div.row .project-techstack-wrapper {
+  position: relative;
+  height: 10%;
+}
+
+.project-techstack-wrapper span {
+  position: absolute;
+  font-size: 16px;
+  bottom: 0;
+}
+
+span.project-title {
+  font-family: 'Bogart', Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 35px;
+}
+
+span.project-links {
+  padding: 0;
+}
+
+ul.project-list span {
+  padding: 0px;
+}
+
+span.project-techstack {
+  color: #a1a1a1;
+  font-weight: 400;
+}
+
+
+
