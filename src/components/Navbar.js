@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Pdf from "../Ronaldo_Suarez_Resume_v1.pdf";
 
 const Navbar = () => {
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
           </li>
           <li>
             <span className="navbar-link">
-              <a href="/resume">Resume</a>
+            <a href={Pdf} target="_blank">Resume</a>
             </span>
           </li>
           <li>

@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route,Navigate } from "react-router-dom";
 import Landing from "./components/Landing";
 import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
-import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -19,7 +18,6 @@ function App() {
                 <Routes>
                   <Route path="/" element={<Landing />} />
                   <Route path="/projects" element={<Projects />} />
-                  <Route path="/resume" element={<Resume />} />
                   <Route path="/contact" element={<Contact />} />
             
                   <Route path="/*" element={<Navigate to ="/"/>} />
