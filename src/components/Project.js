@@ -19,7 +19,7 @@ const Project = ({ projectData }) => {
             <span className="project-bio">{projectData.bio}</span>
           </div>
           <div className="row project-techstack-wrapper container">
-            <span className="project-techstack">{projectData.tech_stack.map((t) => `${t}`)}</span>
+          {projectData.tech_stack.map((t) => <span className="project-techstack">{t}</span>)}
           </div>
         </div>
       </li>

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: #111;
   color: white;
 }
 
@@ -24,7 +24,6 @@ div.row {
 }
 
 .content {
-  font-size: 0px;
   
 }
 
@@ -38,12 +37,12 @@ div.row {
 
 .content .introduction {
   /* font-size: 18px; */
-  font-size: 32px;
+  font-size: 2em;
 }
 
 .content span.socials {
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .socials svg {
@@ -88,7 +87,7 @@ a {
   -webkit-transition: color .2s ease;
   -o-transition: color .2s ease;
 
-  font-size: 20px;
+  font-size: 1.5em;
   font-family: 'Bogart', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -137,7 +136,7 @@ div.content-wrapper::-webkit-scrollbar {
   -webkit-transition: background-color .5s ease;
   -o-transition: background-color .5s ease;
 
-  color: black;
+  color: #111;
 
   transition: color .2s ease;
   -webkit-transition: color .2s ease;
@@ -147,12 +146,13 @@ div.content-wrapper::-webkit-scrollbar {
 
 .name {
   /* font-size: 35px; */
-  font-size: 20px;
+  font-size: 1.2em;
+  line-height: 1em;
   font-family: 'Botif-Regular', Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .introduction .introduction-name-border {
-  font-size: 0px;
+  font-size: 0em;
   display: inline-block;
   padding-bottom: 3px !important;
   transition: padding-bottom .1s ease;
@@ -173,7 +173,7 @@ div.content-wrapper::-webkit-scrollbar {
   font-size: 32px;
   line-height: 32px;
   display: inline-block;
-  background: black;
+  background: #111;
 }
 
 .introduction .introduction-name-border:hover {
@@ -247,14 +247,27 @@ ul.project-list {
 
 ul.project-list li {
   height: 60vh;
+  max-height: 90vh;
   margin: 20vh 0px;
   width: 100%;
-  background: rgb(7, 7, 7);
+  background: #191919;
   border-radius: 50px;
 
   padding: 25px;
 
   overflow:hidden;
+
+  transition: height .2s ease;
+  -webkit-transition: height .2s ease;
+  -o-transition: height .2s ease;
+}
+
+ul.project-list li:hover {
+  height: 65vh;
+
+  transition: height .2s ease;
+  -webkit-transition: height .2s ease;
+  -o-transition: height .2s ease;
 }
 
 ul.project-list div.col {
@@ -276,7 +289,7 @@ div.row .project-links-wrapper {
 }
 
 div.row .project-title-wrapper {
-  height: 10%;
+  height: 15%;
 }
 
 div.row .project-bio-wrapper {
@@ -284,14 +297,17 @@ div.row .project-bio-wrapper {
 }
 
 div.row .project-techstack-wrapper {
+  display: flex;
+  flex-direction: row;
   position: relative;
-  height: 10%;
+  height: 5%;
 }
 
 .project-techstack-wrapper span {
-  position: absolute;
+  text-align: center;
+  
+  width: 100px;
   font-size: 16px;
-  bottom: 0;
 }
 
 .project-bio-wrapper span {
@@ -300,11 +316,13 @@ div.row .project-techstack-wrapper {
 
 span.project-title {
   font-family: 'Bogart', Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 35px;
+  font-size: 2em;
 }
 
 span.project-links {
   padding: 0;
+
+  
 }
 
 ul.project-list span {
@@ -314,6 +332,42 @@ ul.project-list span {
 span.project-techstack {
   color: #a1a1a1;
   font-weight: 400;
+
+  background: -webkit-linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #23a6d5, #e73c7e, #ee7752);
+  background-size: 1400% auto;
+  background-repeat: repeat-x;
+
+  animation: gradient 2s ease infinite;
+  -webkit-animation: gradient 2s ease infinite;
+  -o-animation: gradient 2s ease infinite;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 601px) {
+  span.project-title {
+    font-size: 1.2em;
+  }
+
+  ul.project-list li {
+    padding: 10px 0;
+  }
+
+  span.project-bio {
+    font-size: .8em;
+  }
+
+  div.row .project-techstack-wrapper {
+    height: 20%;
+    width: 80%;
+  }
+
+  span.project-techstack {
+    align-items: center;
+    width: 100%;
+  }
 }
 
 
