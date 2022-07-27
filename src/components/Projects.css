@@ -1,0 +1,40 @@
+div.projects-component {
+    height: fit-content;
+    width: 100%;
+  }
+  
+  ul.project-list {
+    height: fit-content;
+    margin: 20vh 0;
+  
+    list-style: none;
+    padding: 0px;
+    position: relative;
+  
+    display: block;
+    flex-direction:column;
+    justify-content: space-between;
+  
+  }
+  
+  ul.project-list li {
+    height: fit-content;
+    min-height: 350px;
+    margin: 20vh 0px;
+    margin-bottom: 0;
+    width: 100%;
+    background: #191919;
+    border-radius: 50px;
+  
+    padding: 25px;
+  
+    overflow:hidden;
+  
+    transition: padding .2s ease;
+    -webkit-transition: padding .2s ease;
+    -o-transition: padding .2s ease;
+  }
+  
+  ul.project-list li:hover {
+  
+  }

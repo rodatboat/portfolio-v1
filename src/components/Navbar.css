@@ -1,0 +1,45 @@
+div.nav-container {
+    background: #111;
+  
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  
+    z-index: 10;
+  }
+  
+  .nav-container ul {
+    width: 100%;
+    height: fit-content;
+  
+    margin: 20px 0;
+  
+  }
+  
+  .nav-container ul li {
+    display:inline;
+    list-style: none;
+  
+    font-weight: 600;
+  
+    margin: 0 12px;
+  }
+  
+  span.navbar-link:hover {
+    background: -webkit-linear-gradient(0deg, #a0e9ff ,#a162e8 ,#f093b0,#edca85 ,#f093b0,#a162e8, #a0e9ff);
+    background-size: 1400% auto;
+    background-repeat: repeat-x;
+    font-weight: 600;
+  
+    animation: gradient 2s ease infinite;
+    -webkit-animation: gradient 2s ease infinite;
+    -o-animation: gradient 2s ease infinite;
+  
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+  

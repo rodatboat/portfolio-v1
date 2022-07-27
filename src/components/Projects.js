@@ -1,3 +1,4 @@
+import "./Projects.css";
 import { useEffect, useState } from 'react';
 import ProjectData from '../data.json'
 import Project from './Project';

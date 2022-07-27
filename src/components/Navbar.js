@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import Pdf from "../Ronaldo_Suarez_Resume_v1.pdf";
 
+import './Navbar.css'
+
 const Navbar = () => {
   return (
     <>

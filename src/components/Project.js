@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedinIn, FaInstagram, FaFolderOpen } from "react-icons/fa";
+import "./Project.css";
+import { FaGithub, FaFolderOpen } from "react-icons/fa";
 
 const Project = ({ projectData }) => {
   return (

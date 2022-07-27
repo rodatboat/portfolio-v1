@@ -1,0 +1,23 @@
+.footer-component {
+    text-align: center;
+    align-items: center;
+}
+
+.footer-wrapper {
+    width: 100%;
+    padding: 3vh;
+}
+
+.footer-message {
+    font-size: 3em;
+    line-height: 1em;
+    font-family: 'Bogart', Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    background: -webkit-linear-gradient(0deg, #a0e9ff ,#a162e8 ,#f093b0,#edca85);
+    /* background-size: 1400% auto; */
+    background-repeat: repeat-x;
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

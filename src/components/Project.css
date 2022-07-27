@@ -1,0 +1,99 @@
+ul.project-list div.col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 300px;
+  }
+  
+  ul.project-list div.row {
+    margin: 10px;
+    font-size: 1.15em;
+  }
+  
+  span.project-links {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px !important;
+    border-bottom: 1px dotted #a1a1a1;
+  }
+  
+  .folder-icon {
+    color: #a1a1a1;
+  }
+  
+  div.row .project-links-wrapper {
+    height: 20%;
+  }
+  
+  div.row .project-title-wrapper {
+    height: 15%;
+  }
+  
+  div.row .project-bio-wrapper {
+    height: 60%;
+  }
+  
+  .project-techstack-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+  }
+  
+  .project-techstack-wrapper span {
+    /* text-align: center; */
+    width: fit-content;
+    font-size: .9em;
+  }
+  
+  .project-bio-wrapper span {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  
+  span.project-repo {
+    font-weight: 400;
+    font-size: .4em;
+    line-height: .4em;
+  
+    color: #a1a1a1;
+    font-family: 'Biotif', Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  span.project-title {
+    /* background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  
+    font-family: 'Bogart', Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    line-height: 1.4em;
+  }
+  
+  span.project-links {
+    padding-top: 0 !important;
+    padding: 0;
+  }
+  
+  ul.project-list span {
+    padding: 0px;
+  }
+  
+  span.project-techstack {
+    color: #a1a1a1;
+    font-weight: 600;
+    padding: 12px !important;
+  
+    background: -webkit-linear-gradient(0deg, #a0e9ff ,#a162e8 ,#f093b0,#edca85 ,#f093b0,#a162e8, #a0e9ff);
+    background-size: 1400% auto;
+    background-repeat: repeat-x;
+  
+    animation: gradient 2s ease infinite;
+    -webkit-animation: gradient 2s ease infinite;
+    -o-animation: gradient 2s ease infinite;
+  
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

@@ -1,3 +1,4 @@
+import "./Landing.css";
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const Landing = () => {
@@ -5,6 +6,7 @@ const Landing = () => {
   return (
     <>
         <div className="landing-component">
+        <div className="landing-wrapper cont">
           <span className="name">Ronaldo Suarez - Software Engineer</span>
           <br></br>
           <span className="introduction">
@@ -30,6 +32,7 @@ const Landing = () => {
               <FaInstagram size={iconSize} />
             </a>
           </span>
+          </div>
         </div>
     </>
   );
