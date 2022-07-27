@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="footer-component">
         <div className="footer-wrapper">
-          <span className="footer-message">get in touch.</span>
+          <span className="footer-message">get in touch</span>
 
           <div className="footer-socials">
             {/* <span className="footer-social"><a href=""></a></span> */}

@@ -1,8 +1,11 @@
 .experience-component {
     display: block;
     height: fit-content;
+    
     min-height: 50vh;
     width: 100%;
+    max-width: 70vw;
+
     display: flex;
     margin: 10vh auto;
     /* text-align: center; */

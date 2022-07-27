@@ -153,6 +153,10 @@ div.content-wrapper::-webkit-scrollbar {
   li.experience-job:hover .job-desc {
     display: block;
   }
+
+  .experience-component {
+    max-width: 85vw !important;
+  }
 }
 
 
