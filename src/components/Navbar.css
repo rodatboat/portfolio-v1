@@ -6,6 +6,8 @@ div.nav-container {
     left: 0;
     width: 100%;
     text-align: center;
+
+    margin: 0;
   
     z-index: 10;
   }

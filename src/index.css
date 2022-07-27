@@ -14,7 +14,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Biotif-Regular",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +42,7 @@ div.content-row {
   height: 100%;
 }
 
-div.content {
+div.intro-component {
   max-width: 60vw;
 }
 
@@ -62,6 +62,7 @@ div.content-wrapper {
   margin: 0;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -95,7 +96,7 @@ div.content-wrapper::-webkit-scrollbar {
 
 @media screen and (max-width: 601px) {
 
-  .landing-component .name {
+  .intro-component .name {
     font-size: 16px !important;
   }
 
@@ -103,7 +104,7 @@ div.content-wrapper::-webkit-scrollbar {
     font-size: 28px !important;
   }
 
-  div.content {
+  div.intro-component {
     max-width: 85vw;
   }
 
@@ -143,6 +144,14 @@ div.content-wrapper::-webkit-scrollbar {
 
   .footer-message {
     font-size: 2em !important;
+  }
+
+  .job-desc {
+    display: none;
+  }
+
+  li.experience-job:hover .job-desc {
+    display: block;
   }
 }
 

@@ -1,15 +1,15 @@
-.landing-component {
+.intro-component {
   height: 95vh;
   display: flex;
   align-items: center; 
   /* text-align: center; */
 }
 
-.landing-wrapper {
+.intro-wrapper {
   
 }
 
-.landing-component .name {
+.intro-component .name {
     /* font-size: 35px; */
     font-size: 1.2em;
     line-height: 1em;
@@ -98,7 +98,7 @@
     font-family: 'Bogart', Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
   
-  .landing-component span {
+  .intro-component span {
     display: block;
   }
   

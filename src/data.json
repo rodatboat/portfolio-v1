@@ -54,5 +54,31 @@
               "Python",
             "Web Scrapping"]
         }
+    ],
+    "experience":[
+      {
+        "company":"JPMorgan & Chase Co.",
+        "year":"21~",
+        "title":"Software Engineer",
+        "desc":[
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc. Nisi est sit amet facilisis magna etiam tempor. Sed ullamcorper morbi tincidunt ornare massa eget egestas."
+        ]
+      },
+      {
+        "company":"Upsilon Pi Epsilon",
+        "year":"20~",
+        "title":"Leap Committee",
+        "desc":[
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc. Nisi est sit amet facilisis magna etiam tempor. Sed ullamcorper morbi tincidunt ornare massa eget egestas."
+        ]
+      },
+      {
+        "company":"Corsair OriginPC",
+        "year":"20-21",
+        "title":"Data Entry",
+        "desc":[
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc. Nisi est sit amet facilisis magna etiam tempor. Sed ullamcorper morbi tincidunt ornare massa eget egestas."
+        ]
+      }
     ]
 }
