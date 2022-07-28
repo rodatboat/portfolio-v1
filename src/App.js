@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <div className="container">
+        <Navbar />
         <div className="row align-items-center content-row">
           <div className="col content align-items-center container">
             <div className="content-wrapper ">
