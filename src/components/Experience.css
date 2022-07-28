@@ -4,7 +4,7 @@
     
     min-height: 50vh;
     width: 100%;
-    max-width: 70vw;
+    max-width: 50vw;
 
     display: flex;
     margin: 10vh auto;
@@ -64,7 +64,7 @@
   .job-desc {
     height: fit-content;
     max-height: 0px;
-    transition: max-height .2s ease;
+    transition: max-height .5s ease;
 
     overflow: hidden;
   }
@@ -72,7 +72,7 @@
   li.experience-job:hover .job-desc {
     max-height: 500px;
 
-    transition: max-height .2s ease;
+    transition: max-height 1s ease;
   }
 
   .job-year {

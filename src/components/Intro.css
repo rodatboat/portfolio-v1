@@ -5,15 +5,25 @@
   /* text-align: center; */
 }
 
-.intro-wrapper {
-  
+.intro-component {
+  max-width: 45vw;
 }
 
-.intro-component .name {
-    /* font-size: 35px; */
+.intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.name, .introduction, .socials {
+  margin: .2em 0;
+}
+
+.name {
     font-size: 1.2em;
-    line-height: 1em;
+    line-height: 1.2em;
     font-family: 'Botif-Regular', Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* color: #a1a1a1; */
   }
 
   .introduction .introduction-name-border {
@@ -108,7 +118,6 @@
   }
   
   span.socials {
-    padding-top: 10px;
     font-size: 1em;
   }
   

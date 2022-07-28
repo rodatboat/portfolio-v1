@@ -42,10 +42,6 @@ div.content-row {
   height: 100%;
 }
 
-div.intro-component {
-  max-width: 60vw;
-}
-
 div.content {
   display: absolute;
 

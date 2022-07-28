@@ -8,7 +8,6 @@ const Intro = () => {
         <div className="intro-component">
         <div className="intro-wrapper">
           <span className="name">Ronaldo Suarez - Software Engineer</span>
-          <br></br>
           <span className="introduction">
             Hey 👋 I’m{" "}
             <span className="introduction-name-border">
@@ -20,7 +19,6 @@ const Intro = () => {
             </span>
             , a developer focused on solving problems with digital solutions.
           </span>
-          <br></br>
           <span className="socials align-center">
             <a href="https://github.com/rodatboat">
               <FaGithub size={iconSize} />
