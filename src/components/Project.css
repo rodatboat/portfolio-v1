@@ -90,7 +90,6 @@
   .project-list-item {
     flex: 50%;
     padding: 20px;
-
     height: fit-content;
   }
   
@@ -99,7 +98,7 @@
     flex-direction: column;
     justify-content: space-around;
 
-    height: fit-content;
+    height: 30vh;
 
     background: #191919;
 

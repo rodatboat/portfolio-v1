@@ -55,6 +55,10 @@
 
   .job-title {
     font-style: italic;
+
+    transition: margin-bottom .5s ease;
+    -webkit-transition: margin-bottom .5s ease;
+    -o-transition: margin-bottom .5s ease;
   }
 
   .job-header {
@@ -65,14 +69,35 @@
     height: fit-content;
     max-height: 0px;
     transition: max-height .5s ease;
+    -webkit-transition: max-height .5s ease;
+    -o-transition: max-height .5s ease;
+
+    display: flex;
+    flex-direction: column;
 
     overflow: hidden;
+  }
+
+  .job-desc span {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px 0;
   }
 
   li.experience-job:hover .job-desc {
     max-height: 500px;
 
     transition: max-height 1s ease;
+    -webkit-transition: max-height 1s ease;
+    -o-transition: max-height 1s ease;
+  }
+
+  li.experience-job:hover .job-title{
+    margin-bottom: 12px !important;
+
+    transition: margin-bottom .5s ease;
+    -webkit-transition: margin-bottom .5s ease;
+    -o-transition: margin-bottom .5s ease;
   }
 
   .job-year {

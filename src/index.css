@@ -113,7 +113,7 @@ div.content-wrapper::-webkit-scrollbar {
   }
 
   ul.project-list li div.row {
-    padding: 10px 0;
+    /* padding: 10px 0; */
   }
 
   span.project-bio {
@@ -142,17 +142,31 @@ div.content-wrapper::-webkit-scrollbar {
     font-size: 2em !important;
   }
 
+  .job-desc span {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px 0;
+  }
+
+
   .job-desc {
     display: none;
   }
 
   li.experience-job:hover .job-desc {
     display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .experience-component {
     max-width: 85vw !important;
   }
+
+  .project-wrapper {
+    height: fit-content !important;
+  }
+
 }
 
 

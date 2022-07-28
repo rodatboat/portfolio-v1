@@ -1,0 +1,25 @@
+.biography-component {
+    display: block;
+    /* height: fit-content; */
+    
+    min-height: 50vh;
+    width: 100%;
+    max-width: 50vw;
+    margin: 10vh auto;
+}
+
+.biography-wrapper {
+}
+
+.biography-wrapper img {
+
+}
+
+.biography-content {
+}
+
+.biography-intro {
+}
+
+.biography-bio {
+}
