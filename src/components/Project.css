@@ -98,7 +98,7 @@
     flex-direction: column;
     justify-content: space-around;
 
-    height: 30vh;
+    min-height: 30vh;
 
     background: #191919;
 

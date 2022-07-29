@@ -108,12 +108,13 @@ div.content-wrapper::-webkit-scrollbar {
     font-size: 1.2em;
   }
 
-  ul.project-list li {
+  .project-list-item {
     height: fit-content;
+    flex: 100% !important;
   }
 
-  ul.project-list li div.row {
-    /* padding: 10px 0; */
+  .project-list  {
+    flex-direction: column;
   }
 
   span.project-bio {
