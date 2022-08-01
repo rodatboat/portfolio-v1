@@ -154,8 +154,15 @@ div.content-wrapper::-webkit-scrollbar {
     display: none;
   }
 
+  .biography-wrapper {
+    flex-direction: column !important;
+}
+
+.biography-wrapper img {
+  width: 100% !important;
+}
+
   li.experience-job:hover .job-desc {
-    display: block;
     display: flex;
     flex-direction: column;
   }

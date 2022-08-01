@@ -58,7 +58,7 @@
     "experience":[
       {
         "company":"JPMorgan & Chase Co.",
-        "year":"21 ~",
+        "year":"'21 ~",
         "title":"Software Engineer",
         "desc":[
           "Write adaptable, efficient, maintainable code. Implemented solutions to issues identified with api services and applications responsible for displaying data.",
@@ -67,16 +67,16 @@
       },
       {
         "company":"Upsilon Pi Epsilon",
-        "year":"20 ~",
+        "year":"'20 ~",
         "title":"Leap Committee",
         "desc":[
-          "",
-          ""
+          "Helped organize workshops and other events for the Leap program. The goal of the Leap program is to help students better prepare for their professional careers.",
+          "Assisted in reviewing and improving student's resumes & cover letters. Lead workshops on how to approach different algorithm problems in technical interviews."
         ]
       },
       {
         "company":"Corsair OriginPC",
-        "year":"21",
+        "year":"'21",
         "title":"Data Entry",
         "desc":[
           "Reviewed and updated system information for units in factory and warehouse.",
