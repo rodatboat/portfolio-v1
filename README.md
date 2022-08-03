@@ -1,11 +1,11 @@
-<div align="center">
+<!-- <div align="center">
   <img alt="Logo" src="#" width="100" />
-</div>
+</div> -->
 <h1 align="center">
   ronaldosuarez.xyz - v1
 </h1>
 
-![demo](https://raw.githubusercontent.com/rodatboat/portfolio-v1/main/src/images/demo.png)
+![demo](https://raw.githubusercontent.com/rodatboat/portfolio-v1/master/src/images/demo.png)
 
 <!-- 
 ### TL;DR

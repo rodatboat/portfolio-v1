@@ -1,4 +1,4 @@
-import Pdf from "../Ronaldo_Suarez_Resume_v2.pdf";
+import Pdf from "../resume/Ronaldo_Suarez_Resume_v2.pdf";
 
 import './Navbar.css'
 
