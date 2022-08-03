@@ -1,17 +1,26 @@
 import './Biography.css'
+import BiographyData from '../data.json'
+import { useState, useEffect } from 'react'
 
 const Biography = () => {
+
+    const [biography, setBiography] = useState(null)
+
+    useEffect(() => {
+        setBiography(BiographyData);
+    },[biography])
+
     return (
         <>
         <div className="biography-component">
         <div className="biography-wrapper">
-            <img src="https://www.seanhalpin.design/images/info/me@2x.png" />
+            <img src={biography ? biography.biography.img_src    : false} />
             <div className="biography-content">
                 <div className="biography-intro">
-                    <span> I’m Seán, a Product Designer working remotely for Help Scout on their mobile products in sunny Dublin, Ireland.</span>
+                    <span>{biography ? biography.biography.intro : false}</span>
                 </div>
                 <div className="biography-bio">
-                    <span>I’ve spent the past 12+ years working across different areas of digital design; front-end development, email design, marketing site pages, app UI/UX, to my current role designing products for mobile platforms.</span>
+                    {biography ? biography.biography.bio.map((b, i) => <span className='bio-paragraph'>{b}</span>) : false}
                 </div>
             </div>
         </div>

@@ -90,6 +90,19 @@ div.content-wrapper::-webkit-scrollbar {
   -o-transition: color .2s ease;
 }
 
+@media screen and (max-width: 1050px) {
+  .biography-wrapper img {
+    width:100% !important;
+    height:100% !important;
+  }
+  .biography-wrapper {
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+}
+}
+
 @media screen and (max-width: 601px) {
 
   .intro-component .name {
@@ -155,11 +168,17 @@ div.content-wrapper::-webkit-scrollbar {
   }
 
   .biography-wrapper {
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
     flex-direction: column !important;
 }
 
 .biography-wrapper img {
-  width: 100% !important;
+  width:100% !important;
+  height:100% !important;
+
+  margin: 0 !important;
 }
 
   li.experience-job:hover .job-desc {

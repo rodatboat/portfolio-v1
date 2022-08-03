@@ -4,23 +4,50 @@
     /* height: fit-content; */
     min-height: 100vh;
     width: 100%;
+
+    margin: 10vh 0;
 }
 
 .biography-wrapper {
     display: flex;
     flex-direction: row;
+
+    align-items: center;
 }
 
 .biography-wrapper img {
-    width: 50%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+    
+
+    border-radius: 40px;
+
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+
+    padding: 15px;
 
 }
 
 .biography-content {
+    padding: 20px;   
 }
 
 .biography-intro {
+    font-size: 2em;
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .biography-bio {
+    font-size: 1.2em;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-paragraph {
+    margin: 12px 0;
 }
