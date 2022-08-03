@@ -65,3 +65,37 @@
 .bio-paragraph {
     margin: 12px 0;
 }
+
+.biography-techstack {
+    margin: 12px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bio-techstack {
+    font-weight: 600;
+    padding-right: 10px;
+    flex: 1 1 50%;
+
+
+    background: -webkit-linear-gradient(0deg, #a0e9ff ,#a162e8 ,#f093b0,#edca85 ,#f093b0,#a162e8, #a0e9ff);
+    background-size: 1400% auto;
+    background-repeat: repeat-x;
+  
+    animation: gradient 2s ease infinite;
+    -webkit-animation: gradient 2s ease infinite;
+    -o-animation: gradient 2s ease infinite;
+  
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.biography-techstack-title {
+    font-size: 1em;
+    color: #a1a1a1;
+    margin-bottom: 6px;
+    /* text-decoration: underline; */
+
+}

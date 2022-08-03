@@ -22,6 +22,10 @@ const Biography = () => {
                 <div className="biography-bio">
                     {biography ? biography.biography.bio.map((b, i) => <span key={i} className='bio-paragraph'>{b}</span>) : false}
                 </div>
+                <div className="biography-techstack">
+                <span className="biography-techstack-title">Technologies I've been working with recently:</span>
+                    {biography ? biography.biography.recent_tech.map((b, i) => <span key={i} className='bio-techstack'>{b}</span>) : false}
+                </div>
             </div>
         </div>
         </div>

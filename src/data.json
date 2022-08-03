@@ -1,98 +1,99 @@
 {
-    "projects":[
-        {
-            "title":"LPRecon",
-            "repo":"LPRecon-ALPR",
-            "bio":"🚗 Artificial License Plate Recognition using openALPR, openCV, Tesseract. Was integrated using Google Cloud's Compute Engine.",
-            "link":"https://github.com/rodatboat/LPRecon-ALPR",
-            "tech_stack":[
-              "Python",
-              "OpenCV",
-              "Tesseract",
-              "GCP"]
-        },
-        {
-            "title":"Lawn Agency",
-            "repo":"lawn-webapp",
-            "bio":"🌄 Lawn is a marketplace where users can buy land from agents belonging to agencies. Built using Spring 5, Thymeleaf, & MySQL.",
-            "link":"https://github.com/rodatboat/lawn-webapp",
-            "tech_stack":[
-              "Java",
-              "Spring",
-              "MySQL",
-              "ThymeLeaf"]
-        },
-        {
-            "title":"Warframe MarketBuddy",
-            "repo":"Warframe-MarketBuddy",
-            "bio":"📈 Electron application styled using Bulma which fetches the warframe.market API prices for the items specified.",
-            "link":"https://github.com/rodatboat/Warframe-MarketBuddy",
-            "tech_stack":[
-              "Bulma",
-              "Electron",
-              "Node.js",
-              "Python"]
-        },
-        {
-            "title":"Amazon Clone",
-            "repo":"amazon-clone",
-            "bio":"💼 Amazon clone built using React, GCP, & Stripe API.",
-            "link":"https://github.com/rodatboat/amazon-clone",
-            "tech_stack":[
-              "React",
-              "Stripe API",
-              "MongoDB",
-              "Node.js",
-              "AWS"]
-        },
-        {
-            "title":"pwnChecker",
-            "repo":"pwnChecker",
-            "bio":"📁 Python script that checks for leaked credentials, using the pwnDB Onion service.",
-            "link":"https://github.com/rodatboat/pwnChecker",
-            "tech_stack":[
-              "Python",
-            "Web Scrapping"]
-        }
-    ],
-    "experience":[
-      {
-        "company":"JPMorgan & Chase Co.",
-        "year":"'21 ~",
-        "title":"Software Engineer",
-        "desc":[
-          "Write adaptable, efficient, maintainable code. Implemented solutions to issues identified with api services and applications responsible for displaying data.",
-          "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, C, .NET, React, SQL, Jenkins, Apache Kafka, Kubernetes."
-        ]
-      },
-      {
-        "company":"Upsilon Pi Epsilon",
-        "year":"'20 ~",
-        "title":"Leap Committee",
-        "desc":[
-          "Helped organize workshops and other events for the Leap program. The goal of the Leap program is to help students better prepare for their professional careers.",
-          "Assisted in reviewing and improving student's resumes & cover letters. Lead workshops on how to approach different algorithm problems in technical interviews."
-        ]
-      },
-      {
-        "company":"Corsair OriginPC",
-        "year":"'21",
-        "title":"Data Entry",
-        "desc":[
-          "Reviewed and updated system information for units in factory and warehouse.",
-          "Prepared source data for computer entry by compiling and sorting information, and reviewing data for deficiencies."
-        ]
-      }
-    ],
-    "biography":{
-      "img_src":"./images/avatar_img.jpg", 
-      "intro":["I’m Ronaldo, a Software Engineer working for ",
-      "JPMorgan Chase & Co.",
-      " on their internal-facing applications in Dallas, TX."],
-      "bio":[
-        "I'va had the priviledge of working with private ...",
-        "My main focus these days is expanding my knowledge base by contuisly placing myself out of my comfort zone and learning.",
-        "When I'm not working or learning you can find me at the gym, playing video games, or trying my best to cook a tasty meal."
+  "intro": {
+    "full_name": "Ronaldo Suarez",
+    "title": "Software Engineer",
+    "part_1": "Hey 👋 I’m ",
+    "part_2": "Ronaldo",
+    "part_3": ", a developer focused on solving problems with digital solutions.",
+    "github": "https://github.com/rodatboat",
+    "linkedin": "https://www.linkedin.com/in/ronaldo-suarez/",
+    "instagram": "https://www.instagram.com/ro.datboat/"
+  },
+  "projects": [
+    {
+      "title": "LPRecon",
+      "repo": "LPRecon-ALPR",
+      "bio": "🚗 Artificial License Plate Recognition using openALPR, openCV, Tesseract. Was integrated using Google Cloud's Compute Engine.",
+      "link": "https://github.com/rodatboat/LPRecon-ALPR",
+      "tech_stack": ["Python", "OpenCV", "Tesseract", "GCP"]
+    },
+    {
+      "title": "Lawn Agency",
+      "repo": "lawn-webapp",
+      "bio": "🌄 Lawn is a marketplace where users can buy land from agents belonging to agencies. Built using Spring 5, Thymeleaf, & MySQL.",
+      "link": "https://github.com/rodatboat/lawn-webapp",
+      "tech_stack": ["Java", "Spring", "MySQL", "ThymeLeaf"]
+    },
+    {
+      "title": "Warframe MarketBuddy",
+      "repo": "Warframe-MarketBuddy",
+      "bio": "📈 Electron application styled using Bulma which fetches the warframe.market API prices for the items specified.",
+      "link": "https://github.com/rodatboat/Warframe-MarketBuddy",
+      "tech_stack": ["Bulma", "Electron", "Node.js", "Python"]
+    },
+    {
+      "title": "Amazon Clone",
+      "repo": "amazon-clone",
+      "bio": "💼 Amazon clone built using React, GCP, & Stripe API.",
+      "link": "https://github.com/rodatboat/amazon-clone",
+      "tech_stack": ["React", "Stripe API", "MongoDB", "Node.js", "AWS"]
+    },
+    {
+      "title": "pwnChecker",
+      "repo": "pwnChecker",
+      "bio": "📁 Python script that checks for leaked credentials, using the pwnDB Onion service.",
+      "link": "https://github.com/rodatboat/pwnChecker",
+      "tech_stack": ["Python", "Web Scrapping"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "JPMorgan & Chase Co.",
+      "year": "'21 ~",
+      "title": "Software Engineer",
+      "desc": [
+        "Write adaptable, efficient, maintainable code. Implemented solutions to issues identified with api services and applications responsible for displaying data.",
+        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, C, .NET, React, SQL, Jenkins, Apache Kafka, Kubernetes."
+      ]
+    },
+    {
+      "company": "Upsilon Pi Epsilon",
+      "year": "'20 ~",
+      "title": "Leap Committee",
+      "desc": [
+        "Helped organize workshops and other events for the Leap program. The goal of the Leap program is to help students better prepare for their professional careers.",
+        "Assisted in reviewing and improving student's resumes & cover letters. Lead workshops on how to approach different algorithm problems in technical interviews."
+      ]
+    },
+    {
+      "company": "Corsair OriginPC",
+      "year": "'21",
+      "title": "Data Entry",
+      "desc": [
+        "Reviewed and updated system information for units in factory and warehouse.",
+        "Prepared source data for computer entry by compiling and sorting information, and reviewing data for deficiencies."
       ]
     }
+  ],
+  "biography": {
+    "img_src": "./images/avatar_img.jpg",
+    "intro": [
+      "I’m Ronaldo, a Software Engineer working for ",
+      "JPMorgan Chase & Co.",
+      " on their internal-facing applications in Dallas, TX."
+    ],
+    "bio": [
+      "Over the last 6+ years I've had the priviledge of working different areas of the development world; font-end and back-end development, product design, and project management.",
+      "My main focus these days is expanding my knowledge base by continuously placing myself out of my comfort zone and learning.",
+      "When I'm not working or learning you can find me at the gym, playing video games, or trying my best to cook a good meal."
+    ],
+    "recent_tech" : [
+      "JavaScript (ES6+)",
+      "React",
+      "Node.js",
+      "Electron",
+      "Python",
+      ".NET"
+    ]
+  }
 }
