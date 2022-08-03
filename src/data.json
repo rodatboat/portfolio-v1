@@ -4,7 +4,7 @@
     "title": "Software Engineer",
     "part_1": "Hey 👋 I’m ",
     "part_2": "Ronaldo",
-    "part_3": ", a developer focused on solving problems with digital solutions.",
+    "part_3": ", a full-stack developer focused on writing clean code.",
     "github": "https://github.com/rodatboat",
     "linkedin": "https://www.linkedin.com/in/ronaldo-suarez/",
     "instagram": "https://www.instagram.com/ro.datboat/"
@@ -78,7 +78,7 @@
   "biography": {
     "img_src": "./images/avatar_img.jpg",
     "intro": [
-      "I’m Ronaldo, a Software Engineer working for ",
+      "I’m Ronaldo, a Software Engineer at ",
       "JPMorgan Chase & Co.",
       " on their internal-facing applications in Dallas, TX."
     ],
