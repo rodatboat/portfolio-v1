@@ -19,7 +19,7 @@ const Navbar = () => {
           </li>
           <li>
             <span className="navbar-link">
-            <a href={Pdf} target="_blank">Resume</a>
+            <a href={Pdf} target="_blank" rel="noreferrer">Resume</a>
             </span>
           </li>
         </ul>

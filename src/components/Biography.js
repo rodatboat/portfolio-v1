@@ -14,7 +14,7 @@ const Biography = () => {
         <>
         <div className="biography-component">
         <div className="biography-wrapper">
-            <img src={biography ? biography.biography.img_src : '#'} />
+            <img alt="avatar-portrait" src={biography ? biography.biography.img_src : '#'} />
             <div className="biography-content">
                 <div className="biography-intro">
                     <span>{biography ? biography.biography.intro.map((c, i) => i === 1 ? (<span key={i} className='intro-company'>{c}</span>) : c) : false}</span>
